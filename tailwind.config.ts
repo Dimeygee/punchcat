@@ -13,6 +13,14 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        greyxb: ['var(--font-greyxb)','sans-serif'],
+        greyb: ['var(--font-greyb)','sans-serif'],
+        greymd: ['var(--font-greymd)','sans-serif'],
+        greydb: ['var(--font-greydb)','sans-serif'],
+        greyrg: ['var(--font-greyrg)','sans-serif'],
+        outfit: ['var(--font-outfit)','sans-serif']
+      },
     },
   },
   plugins: [],
