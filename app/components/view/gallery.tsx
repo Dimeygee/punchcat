@@ -24,18 +24,18 @@ export const Gallery = () => {
                 { open ? (
                     <div className="flex flex-col gap-[70px] mt-[70px] pb-[250px]">
                         <div className="w-[1112px] h-[834px] bg-black overflow-hidden">
-                            <video loop className="w-full h-full scale-150" autoPlay>
+                            <video muted loop className="w-full h-full scale-150" autoPlay>
+                                <source src="/assets/newhero.mp4" type="video/mp4"></source>
+                            </video>
+                        </div>
+                        <div className="w-[1112px] h-[834px] bg-black overflow-hidden">
+                            <video muted loop className="w-full h-full scale-150" autoPlay>
                                 <source src="/assets/vid1.mp4" type="video/mp4"></source>
                             </video>
                         </div>
                         <div className="w-[1112px] h-[834px] bg-black overflow-hidden">
-                            <video loop className="w-full h-full scale-150" autoPlay>
+                            <video muted loop className="w-full h-full scale-150" autoPlay>
                                 <source src="/assets/vid2.mp4" type="video/mp4"></source>
-                            </video>
-                        </div>
-                        <div className="w-[1112px] h-[834px] bg-black overflow-hidden">
-                            <video loop className="w-full h-full scale-150" autoPlay>
-                                <source src="/assets/newhero.mp4" type="video/mp4"></source>
                             </video>
                         </div>
                     </div>
