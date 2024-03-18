@@ -8,11 +8,11 @@ import { RoadMap } from "./components/view/roadmap";
 export default function Index() {
   return (
     <div className="">
-      <header className="relative h-[100vh] border-2 border-black overflow-hidden">
+      <header className="relative h-[100vh]  overflow-hidden">
         <div className="absolute w-full h-full z-0">
           <div className="relative w-full h-full">
-                <video muted autoPlay loop className="w-full scale-150 hidden md:block">
-                    <source src="/assets/cathero.mp4" type="video/mp4"></source>
+                <video muted autoPlay loop className="w-full h-full scale-150 hidden md:flex">
+                    <source src="/assets/hero.mp4" type="video/mp4"></source>
                 </video>
                 <Image src="/assets/cathero.png" alt="" className="block md:hidden" style={{
                   objectFit:"cover"
