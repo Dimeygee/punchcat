@@ -1,6 +1,7 @@
 import Image from "next/image"
 import { Phase } from "../phase"
 import { Telegram, Twitter } from "../icon"
+import Link from "next/link"
 
 
 export const RoadMap = () => {
@@ -33,14 +34,14 @@ export const RoadMap = () => {
             <div className="md:mt-[123px] mt-[323px]">
                 <h6 className="leading-[2.078px] text-[20px] font-medium mb-[65px] text-center">Join the community to punch a jeet</h6>
                 <div className="md:w-[1251px] h-[156px] flex mx-auto">
-                    <div className="grow flex py-[27px] md:px-[81px] gap-[13px] flex-col items-center bg-[#9747FF]">
+                    <Link href="https://x.com/punchcatsolana" className="grow flex py-[27px] md:px-[81px] gap-[13px] flex-col items-center bg-[#9747FF]">
                         <Twitter />
                         <span className="text-[20px] text-[#FFF] font-greyb">Twitter</span>
-                    </div>
-                    <div className="grow flex py-[27px] md:px-[81px] gap-[13px] flex-col items-center bg-[#1C9276]">
+                    </Link>
+                    <Link href="https://t.me/punchcatportal" className="grow flex py-[27px] md:px-[81px] gap-[13px] flex-col items-center bg-[#1C9276]">
                         <Image src="/assets/Telegram.png" alt="" width={64} height={64} />
                         <span className="text-[20px] text-[#FFF] font-greyb">Telegram</span>
-                    </div>
+                    </Link>
                 </div>
             </div>
             
