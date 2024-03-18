@@ -5,6 +5,11 @@
 
 html{
   scroll-behavior: smooth;
+  cursor: none;
+}
+
+.custom {
+  pointer-events: none,
 }
 
 @layer utilities {

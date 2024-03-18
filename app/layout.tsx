@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { greycliffBold, greycliffMedium, greycliffRegular } from "./styles";
+import CustomCursor from "./components/customcursor";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,6 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <CustomCursor />
       <body className={`${greycliffBold.variable} ${greycliffMedium.variable} ${greycliffRegular.variable}`}>{children}</body>
     </html>
   );
