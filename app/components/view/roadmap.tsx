@@ -2,9 +2,10 @@ import Image from "next/image"
 import { Phase } from "../phase"
 import { Telegram, Twitter } from "../icon"
 
+
 export const RoadMap = () => {
     return (
-        <div className="pt-[69px] pb-[69px] bg-white font-greyb relative">
+        <div id="roadmap" className="pt-[69px] pb-[69px] bg-white font-greyb relative">
             <video muted autoPlay loop className="w-full  absolute bottom-[-300px]">
                 <source src="/assets/punch.mp4" type="video/mp4"></source>
             </video>
@@ -23,8 +24,8 @@ export const RoadMap = () => {
                     <div className="w-full relative h-full flex items-center justify-center">
                         <div className="flex justify-center gap-[120px] md:gap-[53px] flex-col md:flex-row">
                             <Phase title="Phase 1 - Know the Cat" lists={["Launch $PUNCH on @pumpdotfun", "Get into every cat meme lovers wallets through giveaways and partial airdrops", "Punch out % supply with every 1000 new $PUNCH holders "]} image="/assets/catstand.mp4" />
-                            <Phase title="Phase 1 - Know the Cat" lists={["Feel the Cat", "$PUNCH airdrop (More info soon)", "$PUNCH Cex listings"]} image="/assets/2cat.mp4" />
-                            <Phase title="Phase 1 - Know the Cat" lists={["$PUNCH Merch", "Punch Cats game planning  (when we hit $100M punch cap)"]} image="/assets/guycat.mp4" />
+                            <Phase title="Phase 2 - Feel the Cat" lists={["Feel the Cat", "$PUNCH airdrop (More info soon)", "$PUNCH Cex listings"]} image="/assets/2cat.mp4" />
+                            <Phase title="Phase 3 - Be the Cat" lists={["$PUNCH Merch", "Punch Cats game planning  (when we hit $100M punch cap)"]} image="/assets/guycat.mp4" />
                         </div>
                     </div>
                 </div>

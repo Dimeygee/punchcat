@@ -11,7 +11,7 @@ export const Nav = () => {
                     <nav className="">
                         <ul className="flex gap-[44px] items-center text-base font-greyrg leading-[32px] text-white">
                             <li className="tracking-[0.64px]">Home</li>
-                            <li className="tracking-[0.64px]">Roadmap</li>
+                            <a className="tracking-[0.64px]" href="#roadmap">Roadmap</a>
                         </ul>
                     </nav>
                     <div className="">
