@@ -19,6 +19,13 @@
     -webkit-text-fill-color: transparent;
   }
 
+  .bgradient1{
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.56);
+    background: var(--Purple-Gradient, linear-gradient(180deg, #0F0073 0%, #2D0DFF 100%));
+    box-shadow: 0px 0px 2px 0px rgba(62, 22, 13, 0.50), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
   .bxs{
     box-shadow: 9px 9px 5px 0px rgba(0,0,0,0.75);
     -webkit-box-shadow: 9px 9px 5px 0px rgba(0,0,0,0.75);

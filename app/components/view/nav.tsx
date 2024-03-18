@@ -6,7 +6,7 @@ export const Nav = () => {
     return (
         <>
             <Wrapper>
-                <div className="flex items-center justify-between py-[27px]">
+                <div className="flex items-center justify-between py-[27px] flex-col md:flex-row gap-[20px] md:gap-0">
                     <div className="w-[300px]"></div>
                     <nav className="">
                         <ul className="flex gap-[44px] items-center text-base font-greyrg leading-[32px] text-white">
